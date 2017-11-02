@@ -20,14 +20,16 @@ function addItems() {
 }
 
 function checkItems() {
-    $('.shopping-item-toggle').toggle()
+    $('.shopping-item-toggle').on('click', function(event) {
+        $(this).toggleClass('shopping-item__checked');
+    })
 }
 
-function deleteItems() {
-    //code here
-}
+// function deleteItems() {
+//     //code here
+// }
 
 
 $(addItems());
-// $(checkItems());
-// $(deleteItems());
+$(checkItems());
+// $(deleteItems(){}
