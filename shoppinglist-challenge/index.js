@@ -19,4 +19,15 @@ function addItems() {
 
 }
 
+function checkItems() {
+    $('.shopping-item-toggle').toggle()
+}
+
+function deleteItems() {
+    //code here
+}
+
+
 $(addItems());
+// $(checkItems());
+// $(deleteItems());
